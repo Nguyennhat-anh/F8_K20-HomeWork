@@ -5,13 +5,13 @@
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .container {
     display: block;
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
 }
 
 .container img {
