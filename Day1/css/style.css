@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .description {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container .hl {
+    background-color: #c8f2f7;
+    padding: 1px 6px;
+    border-radius: 3px;
+}
+
+.container .color_taga {
+    color: #f05123;
+}
