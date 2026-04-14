@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <div class="container">
+        <article class="container">
             <h1>
                 ES2025 JavaScript: Patterns và Libraries Hot Nhất Cho Developer
                 Việt 2026
@@ -25,15 +25,15 @@
             <ul>
                 <li>
                     <b>Iterator Helpers</b> - global
-                    <span class="hl">Iterator</span> object với
-                    <span class="hl">map</span>, <span class="hl">filter</span>,
-                    <span class="hl">take</span>, <span class="hl">drop</span>
+                    <mark class="hl">Iterator</mark> object với
+                    <mark class="hl">map</mark>, <mark class="hl">filter</mark>,
+                    <mark class="hl">take</mark>, <mark class="hl">drop</mark>
                 </li>
                 <li>
-                    <b>Set Methods</b> - <span class="hl">union()</span>,
-                    <span class="hl">intersection()</span>,
-                    <span class="hl">difference()</span>,
-                    <span class="hl">symmetricDifference()</span>
+                    <b>Set Methods</b> - <mark class="hl">union()</mark>,
+                    <mark class="hl">intersection()</mark>,
+                    <mark class="hl">difference()</mark>,
+                    <mark class="hl">symmetricDifference()</mark>
                 </li>
                 <li>
                     <b>Promise.try()</b> - bắt cả sync lẫn async errors trong
@@ -41,15 +41,15 @@
                 </li>
                 <li>
                     <b>RegExp improvements</b> - flag
-                    <span class="hl">/v</span>,
-                    <span class="hl">RegExp.escape()</span>,
-                    <span class="hl">duplicate named groups</span>
+                    <mark class="hl">/v</mark>,
+                    <mark class="hl">RegExp.escape()</mark>,
+                    <mark class="hl">duplicate named groups</mark>
                 </li>
                 <li>
                     <b>Import Attributes</b> -
-                    <span class="hl"
+                    <mark class="hl"
                         >import data from "./data.json" with { type: "json"
-                        }</span
+                        }</mark
                     >
                 </li>
                 <li>
@@ -71,7 +71,7 @@
                 production nếu bạn target môi trường đủ mới.
             </p>
             <p>
-                Pipeline operator <span class="hl">(|>)</span> và Temporal API?
+                Pipeline operator <mark class="hl">(|>)</mark> và Temporal API?
                 Vẫn đang ở Stage 2-3. Dùng Luxon hoặc date-fns cho date/time là
                 lựa chọn thực tế nhất hiện tại.
             </p>
@@ -87,13 +87,13 @@
             </p>
             <p>
                 <b>Iterator Helpers</b> giải quyết bài toán bạn từng phải import
-                lodash chỉ để <span class="hl">map + filter + slice</span> một
+                lodash chỉ để <mark class="hl">map + filter + slice</mark> một
                 mảng lớn. Bây giờ không cần nữa:
             </p>
             <img src="./image/Screenshot 2026-04-10 160407.png" alt="" />
             <p>
                 Khác biệt quan trọng:
-                <span class="hl">Iterator.from()</span> <b>lazy</b> - với mảng
+                <mark class="hl">Iterator.from()</mark> <b>lazy</b> - với mảng
                 10.000 item nhưng chỉ cần 100 kết quả đầu, nó không xử lý 9.900
                 item còn lại. Lodash chain cũng làm được điều này, nhưng giờ là
                 native.
@@ -113,7 +113,7 @@
             <img src="./image/Screenshot 2026-04-10 161617.png" alt="" />
             <p>
                 Trước đây bạn phải tự viết
-                <span class="hl">[...setA].filter(x => setB.has(x))</span>. Dài,
+                <mark class="hl">[...setA].filter(x => setB.has(x))</mark>. Dài,
                 khó đọc, dễ bug. Set methods native clean hơn nhiều và chain
                 được với nhau.
             </p>
@@ -221,10 +221,10 @@
                     <tr>
                         <td>ES2025 synergy</td>
                         <td>
-                            <span class="hl">Iterator.from(observable)</span>
+                            <mark class="hl">Iterator.from(observable)</mark>
                         </td>
                         <td>
-                            <span class="hl">Promise.try</span> trong actions
+                            <mark class="hl">Promise.try</mark> trong actions
                         </td>
                     </tr>
                     <tr>
@@ -320,6 +320,6 @@
             </p>
 
             <i class="ti-heart"></i>
-        </div>
+        </article>
     </body>
 </html>
