@@ -62,26 +62,30 @@ Khi đang nhấn: màu #1e3a8a
 
 .post-content a:link,
 .post-footer a:link,
-.widget a:link {
+.widget a:link,
+.footer-col a:link {
 	color: #2563eb;
 }
 
 
 .post-content a:visited,
 .post-footer a:visited,
-.widget a:visited {
+.widget a:visited,
+.footer-col a:visited {
 	color: #9333ea;
 }
 
 .post-content a:hover,
 .post-footer a:hover,
-.widget a:hover {
+.widget a:hover,
+.footer-col a:hover {
 	color: #1e40af;
 }
 
 .post-content a:active,
 .post-footer a:active,
-.widget a:active {
+.widget a:active,
+.footer-col a:active {
 	color: #1e3a8a;
 }
 
@@ -97,7 +101,6 @@ Nút bị vô hiệu hóa: nền #94a3b8, chữ #cbd5e1
 	background: #2563eb;
 	color: white;
 }
-
 
 .btn:hover {
 	background: #3b82f6;
