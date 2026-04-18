@@ -67,7 +67,6 @@ Khi đang nhấn: màu #1e3a8a
 	color: #2563eb;
 }
 
-
 .post-content a:visited,
 .post-footer a:visited,
 .widget a:visited,
@@ -88,6 +87,7 @@ Khi đang nhấn: màu #1e3a8a
 .footer-col a:active {
 	color: #1e3a8a;
 }
+
 
 /* Các nút bấm:
 Nút chính có nền #2563eb, chữ white
