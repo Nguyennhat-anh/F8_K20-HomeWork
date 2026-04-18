@@ -61,22 +61,26 @@ Khi đang nhấn: màu #1e3a8a
  */
 
 .post-content a:link,
-.post-footer a:link {
+.post-footer a:link,
+.widget a:link {
 	color: #2563eb;
 }
 
 .post-content a:visited,
-.post-footer a:visited {
+.post-footer a:visited,
+.widget a:visited {
 	color: #9333ea;
 }
 
 .post-content a:hover,
-.post-footer a:hover {
+.post-footer a:hover,
+.widget a:hover {
 	color: #1e40af;
 }
 
 .post-content a:active,
-.post-footer a:active {
+.post-footer a:active,
+.widget a:active {
 	color: #1e3a8a;
 }
 
