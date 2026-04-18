@@ -1,0 +1,214 @@
+/* Bài 1: Combinators */
+/* Tất cả link trong menu điều hướng (kể cả submenu) có màu #1d4ed8 */
+.main-nav a {
+	color: #1d4ed8;
+}
+
+/* Chỉ các mục menu cấp 1 (không tính submenu) có nền #f1f5f9 */
+.main-nav > ul > li {
+	background: #088a3a;
+}
+
+/* Đoạn văn đầu tiên ngay sau mỗi tiêu đề h2 trong nội dung bài viết có màu #64748b */
+.post-content h2 + p {
+	color: #001a81;
+}
+
+/* Tất cả đoạn văn nằm sau tiêu đề h2 (không cần liền kề) có màu #0f172a */
+.post-content h2 ~ p:not(h2 + p) {
+	color: #1a954b;
+}
+
+/* Link tác giả trong phần thông tin bài viết có màu #f97316 */
+ .post-meta .author a {
+	color: #f97316;
+}
+
+/* Bài 2: CSS Nesting
+Sử dụng CSS Nesting (với ký hiệu &) để viết style cho bài viết:
+Bài viết có nền white
+Tiêu đề bài viết có màu #0f172a
+Khi di chuột vào bài viết, bài viết có nền #f8fafc
+Bài viết nổi bật (có class featured) có nền #fefce8
+Khi di chuột vào bài viết, tiêu đề đổi màu #2563eb */
+
+.post {
+	background: white;
+
+	.post-title {
+		color: #0f172a;
+	}
+
+	&.featured {
+		background: #fefce8;
+	}
+
+	&:hover {
+		background: #f8fafc;
+
+		.post-title {
+			color: #2563eb;
+		}
+	}
+}
+
+/* Bài 3: Interactive Pseudo-classes
+Link trong nội dung bài viết:
+Chưa truy cập: màu #2563eb
+Đã truy cập: màu #9333ea
+Khi di chuột: màu #1e40af
+Khi đang nhấn: màu #1e3a8a
+ */
+
+.post-content a:link,
+.post-footer a:link {
+	color: #2563eb;
+}
+
+.post-content a:visited,
+.post-footer a:visited {
+	color: #9333ea;
+}
+
+.post-content a:hover,
+.post-footer a:hover {
+	color: #1e40af;
+}
+
+.post-content a:active,
+.post-footer a:active {
+	color: #1e3a8a;
+}
+
+/* Các nút bấm:
+Nút chính có nền #2563eb, chữ white
+Khi di chuột vào nút: nền #3b82f6
+Khi nhấn nút: nền #1d4ed8
+Nút bị vô hiệu hóa: nền #94a3b8, chữ #cbd5e1
+Ô nhập liệu khi được focus có nền #eff6ff */
+
+
+.btn {
+	background: #2563eb;
+	color: white;
+}
+
+
+.btn:hover {
+	background: #3b82f6;
+}
+
+.btn:active {
+	background: #1d4ed8;
+}
+
+button[disabled] {
+	background: #94a3b8;
+	color: #cbd5e1;
+}
+
+input:focus {
+	background: #eff6ff;
+} 
+
+/* Bài 4: Structural Pseudo-classes
+Trong bảng so sánh:
+Các hàng lẻ có nền #f8fafc
+Các hàng chẵn có nền white
+Hàng đầu tiên (tiêu đề bảng) có nền #0f172a, chữ white
+Hàng cuối cùng có nền #dbeafe
+Trong danh sách các bước:
+Bước đầu tiên có màu #16a34a
+Bước cuối cùng có màu #dc2626
+Bước thứ 3 có nền #fef3c7
+Các widget trong sidebar (trừ widget cuối) có nền white */
+
+.comparison-table tr:nth-child(2n + 1){
+	background: #f8fafc;
+}
+
+.comparison-table tr:nth-child(2n){
+	background: white;
+}
+
+.comparison-table tr:first-child{
+	background: #0f172a;
+	color: white;
+}
+
+.comparison-table tr:last-child{
+	background: #dbeafe;
+}
+
+/* Bài 5: Pseudo-elements
+Đoạn văn mở đầu:
+Dòng đầu tiên có màu #0f172a
+Chữ cái đầu tiên có màu #2563eb
+Khối trích dẫn thêm dấu ngoặc kép " màu #cbd5e1 ở đầu (dùng ::before với content)
+Danh sách các bước có ký hiệu đầu dòng màu #2563eb (dùng ::marker)
+Khi bôi đen text, nền chuyển sang #bfdbfe, chữ #0f172a (dùng ::selection)
+Badge thêm chấm tròn màu #ef4444 ở đầu (dùng ::before với content: "") */
+
+.post-content p:first-child::first-line {
+	color: #af1207;
+}
+
+.post-content p:first-child::first-letter {
+	color: #2563eb;
+}
+
+.quote::before {
+	content: '"';
+	color: #cbd5e1;
+}
+
+.steps li::marker {
+	color: #2563eb;
+}
+
+::selection {
+	background: #bfdbfe;
+	color: #0f172a;
+}
+
+.badge::before {
+	content: "•";
+	color: #ef4444;
+}
+
+
+/* Bài 6: Attribute Selectors
+Ô nhập bắt buộc (required) có nền #fffbeb
+Link bắt đầu bằng "https://" có màu #2563eb
+Link tải file PDF có màu #ea580c
+Nút có class chứa từ "btn" có nền #e2e8f0
+Phần tử có thuộc tính lang bắt đầu bằng "vi" có màu #0f172a
+Hàng trong bảng có độ ưu tiên cao (data-priority="high") có nền #fee2e2 */
+
+input[required] {
+	background: #fffbeb;
+}
+
+a[href^="https://"] {
+	color: #2563eb;
+}
+
+a[href$=".pdf"] {
+	color: #ea580c !important; 
+}
+
+/* .post-content a[href$=".pdf"] {
+	color: #ea580c;
+} */
+
+[class*="btn"] {
+	background: #e2e8f0;
+}
+
+[lang^="vi"] {
+	color: #0f172a;
+}
+
+.comparison-table tr[data-priority="high"] {
+	background: #fee2e2;
+}
