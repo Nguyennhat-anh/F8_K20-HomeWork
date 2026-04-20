@@ -5,12 +5,13 @@
 }
 
 .theme-setting {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 1rem;
     border: #111827 3px solid;
     border-radius: 8px;
     line-height: 2rem;
+    user-select: none;
     & > h1{
         border-radius: 8px;
         text-align: center;
@@ -27,7 +28,19 @@
     }
 }
 
+.theme-setting > input {
+    cursor: pointer;
+}
+
+.theme-setting > label {
+    cursor: pointer;
+}
+
 .theme-text{
+    margin-top: 8px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #edf0f5;
     color: #c3c6d2;
     background-color: #ffffff;
 }
