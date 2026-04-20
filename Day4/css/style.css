@@ -5,7 +5,7 @@
 }
 
 .theme-setting {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     padding: 1rem;
     border: #111827 3px solid;
@@ -56,7 +56,6 @@
         font-weight: bold;
     }
 }
-
 
 #dark:checked {
     & ~ label[for="dark"] {
