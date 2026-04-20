@@ -57,6 +57,7 @@
     }
 }
 
+
 #dark:checked {
     & ~ label[for="dark"] {
         background-color: #111827;
