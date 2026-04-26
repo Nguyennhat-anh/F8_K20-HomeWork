@@ -1,0 +1,175 @@
+ table {
+                margin: 20px;
+            }
+
+            td {
+                padding: 10px 14px;
+                margin: 0;
+            }
+
+            .hinh-1 {
+                width: 42px;
+                height: 42px;
+                border: 2px solid #ff8f7b;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-2 {
+                width: 68px;
+                height: 34px;
+                border: 2px solid #7fb2ea;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-3 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 24px 42px 24px;
+                border-color: transparent transparent #67c978 transparent;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-4 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 42px 24px 0 24px;
+                border-color: #e2a22b transparent transparent transparent;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-5 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 24px 42px 24px 0;
+                border-color: transparent #8f62c8 transparent transparent;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-6 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 24px 0 24px 42px;
+                border-color: transparent transparent transparent #d99135;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-7 {
+                width: 52px;
+                height: 0;
+                border-style: solid;
+                border-width: 0 10px 34px 10px;
+                border-color: transparent transparent #62b79f transparent;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-8 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 30px 42px 30px;
+                border-color: transparent transparent #566a8d transparent;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-9 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 42px 11px 0 11px;
+                border-color: #c9543d transparent transparent transparent;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-10 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 42px 20px 0 20px;
+                border-color: #d1782b transparent transparent transparent;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-11 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 20px 0 20px 38px;
+                border-color: transparent transparent transparent #5eaf9a;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-12 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 20px 38px 20px 0;
+                border-color: transparent #8a54be transparent transparent;
+                margin: 0 0 8px 0;
+            }
+
+            .hinh-13 {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 15px 26px 15px 52px;
+                border-color: #d55f45 transparent #d55f45 #d55f45;
+                margin: 0 0 8px 0;
+            }
+
+            .f8-logo {
+                margin-top: 8px;
+            }
+
+            .letter-f {
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            .f-top {
+                width: 50px;
+                height: 0;
+                border-style: solid;
+                border-width: 0 0 14px 0;
+                border-color: #d55f45;
+            }
+
+            .f-left {
+                width: 0;
+                height: 92px;
+                border-style: solid;
+                border-width: 0 0 0 14px;
+                border-color: #d55f45;
+            }
+
+            .f-middle {
+                width: 50px;
+                height: 0;
+                border-style: solid;
+                border-width: 14px 0 0 0;
+                border-color: #d55f45;
+                margin: -60px 0 46px 0;
+            }
+
+            .letter-8 {
+                display: inline-block;
+            }
+
+            .eight-top {
+                width: 36px;
+                height: 32px;
+                border-style: solid;
+                border-width: 14px 14px 7px 14px;
+                border-color: #d55f45;
+            }
+
+            .eight-bottom {
+                width: 36px;
+                height: 32px;
+                border-style: solid;
+                border-width: 7px 14px 14px 14px;
+                border-color: #d55f45;
+            }
