@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trang chủ</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+        />
+    </head>
+    <body>
+        <!-- Phần Header: -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <h2><i class="mdi mdi-seal"></i>Nguyễn Nhật Anh</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li>
+                        <a href="./index.html"
+                            ><i class="mdi mdi-home"></i>Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./pages/about.html"
+                            ><i class="mdi mdi-account"></i>About</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./pages/skills.html">
+                            <i class="mdi mdi-lightbulb"></i>Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/project.html"
+                            ><i class="mdi mdi-folder"></i>Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./pages/blog.html"
+                            ><i class="mdi mdi-file-document"></i>Blog</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./pages/contact.html"
+                            ><i class="mdi mdi-email"></i>Contact</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Phần Hero Section: -->
+        <main>
+            <section class="hero">
+                <h2>Giới thiệu về tôi</h2>
+                <img
+                    src="https://picsum.photos/300/200?random=1"
+                    alt="Hero Image"
+                    class="hero-bg"
+                />
+                <div class="hero-content">
+                    <h1>
+                        <strong>Nguyễn Nhật Anh</strong>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <em> Tôi hiện đang là học viên F8 </em>
+                    </p>
+                    <div class="hero-buttons">
+                        <button>
+                            <a
+                                href="./pages/project.html"
+                                class="btn btn-primary"
+                            >
+                                <i class="mdi mdi-folder"></i> Xem dự án
+                            </a>
+                        </button>
+                        <button>
+                            <a
+                                href="files/cv.pdf"
+                                class="btn btn-secondary"
+                                download=""
+                            >
+                                <i class="mdi mdi-download"></i> Tải CV
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Phần About Preview: -->
+            <section class="about-priview">
+                <div class="about-content">
+                    <img
+                        src="https://i.pravatar.cc/150?img=3"
+                        alt="Avatar"
+                        class="avatar"
+                    />
+                    <div class="about-text">
+                        <p>
+                            Xin chào, mình là <strong>Nhật Anh</strong>, hiện
+                            đang là sinh viên tại
+                            <mark>Học viện Công nghệ Bưu chính Viễn thông</mark
+                            >. Mình yêu thích <em>bóng rổ</em>, công nghệ và
+                            luôn muốn phát triển bản thân mỗi ngày.
+                        </p>
+                    </div>
+                    <a href="./pages/about.html" class="link-more">
+                        Đọc thêm
+                    </a>
+                </div>
+            </section>
+
+            <!-- Phần Skills Preview: -->
+            <section class="skills-preview">
+                <h2>Kỹ năng của tôi</h2>
+                <div class="skills-grid">
+                    <!-- Kỹ năng 1: HTML -->
+                    <div class="skill-card">
+                        <i class="mdi mdi-language-html5"></i>
+                        <h3>HTML</h3>
+                        <p>
+                            Sử dụng cấu trúc HTML ngữ nghĩa và thân thiện với
+                            khả năng truy cập để xây dựng nền tảng vững chắc cho
+                            website.
+                        </p>
+                    </div>
+
+                    <!-- Kỹ năng 2: CSS -->
+                    <div class="skill-card">
+                        <i class="mdi mdi-language-css3"></i>
+                        <h3>CSS</h3>
+                        <p>
+                            Thiết kế responsive, Flexbox, Grid Layout và các kỹ
+                            thuật CSS hiện đại.
+                        </p>
+                    </div>
+
+                    <!-- Kỹ năng 3: JavaScript -->
+                    <div class="skill-card">
+                        <i class="mdi mdi-language-javascript"></i>
+                        <h3>JavaScript</h3>
+                        <p>
+                            Xây dựng các tính năng tương tác, thao tác DOM và
+                            ứng dụng web động.
+                        </p>
+                    </div>
+
+                    <!-- Kỹ năng 4: Git -->
+                    <div class="skill-card">
+                        <i class="mdi mdi-git"></i>
+                        <h3>Git & Quản lý phiên bản</h3>
+                        <p>
+                            Phát triển cộng tác với Git và GitHub để quản lý mã
+                            nguồn và dự án.
+                        </p>
+                    </div>
+                </div>
+
+                <a href="pages/skills.html" class="link-more">
+                    Xem tất cả kỹ năng
+                </a>
+            </section>
+
+            <section class="projects-preview">
+                <h2>Dự án</h2>
+                <div class="project-card">
+                    <img
+                        src="https://picsum.photos/400/250?random=2"
+                        alt="Project 1 - Website thương mại điện tử"
+                    />
+
+                    <div class="project-info">
+                        <h3><strong>Website Thương Mại Điện Tử</strong></h3>
+
+                        <p>
+                            Một cửa hàng trực tuyến hoàn chỉnh với danh sách sản
+                            phẩm và chức năng giỏ hàng.
+                        </p>
+
+                        <div class="project-tech">
+                            <code>HTML</code>
+                            <code>CSS</code>
+                            <code>JavaScript</code>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" target="_blank">
+                                <i class="mdi mdi-eye"></i> Xem chi tiết
+                            </a>
+
+                            <a href="./pages/project.html" target="_blank">
+                                <i class="mdi mdi-folder"></i> Xem tất cả dự án
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Phần Footer: -->
+            <footer>
+                <div class="footer-content">
+                    <p>&copy; 2026.</p>
+                    <div class="social-links">
+                        <!-- TODO -->
+                        <a href="#" target="_blank" title="Facebook">
+                            <i class="mdi mdi-facebook"></i>
+                        </a>
+                        <a href="#" target="_blank" title="Instagram">
+                            <i class="mdi mdi-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" title="Twitter">
+                            <i class="mdi mdi-twitter"></i>
+                        </a>
+                        <a href="#" target="_blank" title="GitHub">
+                            <i class="mdi mdi-github"></i>
+                        </a>
+                        <a href="#" target="_blank" title="LinkedIn">
+                            <i class="mdi mdi-linkedin"></i>
+                        </a>
+                    </div>
+                    <a href="#top" class="back-to-top"> Lên đầu trang </a>
+                </div>
+            </footer>
+        </main>
+
+        <!-- Link JS -->
+        <script src="./js/script.js"></script>
+    </body>
+</html>
