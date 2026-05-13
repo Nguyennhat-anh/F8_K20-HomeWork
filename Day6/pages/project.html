@@ -54,7 +54,315 @@
 
         <!-- Phần "Về dự án": -->
         <main>
-            <!-- TODO: Thêm phần giới thiệu về dự án, có thể là một đoạn văn ngắn hoặc một hình ảnh đại diện. -->
+            <section class="page-header">
+                <h1>Dự án tiêu biểu</h1>
+                <p>
+                    Danh sách các dự án tôi đã thực hiện theo từng nhóm: Web,
+                    Mobile và Desktop. Mỗi dự án đều có mô tả chi tiết, công
+                    nghệ sử dụng, tính năng chính và liên kết tham khảo.
+                </p>
+            </section>
+
+            <section>
+                <h2>Nhóm dự án Web</h2>
+
+                <article>
+                    <img
+                        src="../images/project1.png"
+                        alt="Thumbnail dự án web quản lý công việc"
+                        width="640"
+                        height="360"
+                    />
+                    <h3>
+                        <strong
+                            >TaskFlow - Hệ thống quản lý công việc nhóm</strong
+                        >
+                    </h3>
+                    <p>
+                        TaskFlow là một ứng dụng web giúp nhóm nhỏ theo dõi tiến
+                        độ công việc theo thời gian thực. Người dùng có thể tạo
+                        dự án, chia task theo cột và cập nhật trạng thái nhanh
+                        ngay trên dashboard.
+                    </p>
+                    <p>
+                        Trong quá trình xây dựng, tôi tập trung vào việc giảm số
+                        bước thao tác cho người dùng cuối. Bố cục kéo thả trực
+                        quan và luồng cập nhật tự động giúp nhóm dễ phối hợp hơn
+                        trong các sprint ngắn.
+                    </p>
+                    <p>
+                        Phần backend được thiết kế gọn để dễ mở rộng, đảm bảo có
+                        thể bổ sung thêm báo cáo theo tuần và hệ thống thông báo
+                        mà không ảnh hưởng đến các module hiện có.
+                    </p>
+
+                    <p>
+                        Công nghệ sử dụng:
+                        <code>HTML</code>, <code>CSS</code>,
+                        <code>JavaScript</code>, <code>Node.js</code>,
+                        <code>MongoDB</code>
+                    </p>
+
+                    <h4>Tính năng chính</h4>
+                    <ul>
+                        <li>Tạo và quản lý task theo từng dự án.</li>
+                        <li>Kéo thả task giữa các cột tiến độ.</li>
+                        <li>
+                            <mark>Realtime sync</mark> khi nhiều thành viên cùng
+                            thao tác.
+                        </li>
+                        <li>
+                            Bộ lọc theo deadline, mức ưu tiên và người phụ
+                            trách.
+                        </li>
+                    </ul>
+
+                    <p>
+                        <a
+                            href="https://example.com/taskflow-demo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Xem demo</a
+                        >
+                        |
+                        <a
+                            href="https://github.com/example/taskflow"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Source code (GitHub)</a
+                        >
+                    </p>
+
+                    <h4>Video demo</h4>
+                    <video controls poster="../videos/poster.png" width="640">
+                        <source src="../videos/intro.mp4" type="video/mp4" />
+                        Trình duyệt của bạn không hỗ trợ video.
+                    </video>
+                </article>
+
+                <article>
+                    <img
+                        src="../images/project2.png"
+                        alt="Thumbnail dự án website thương mại điện tử"
+                        width="640"
+                        height="360"
+                    />
+                    <h3>
+                        <strong>ShopNext - Website bán hàng trực tuyến</strong>
+                    </h3>
+                    <p>
+                        ShopNext là dự án mô phỏng một nền tảng thương mại điện
+                        tử cho cửa hàng nhỏ. Người dùng có thể xem danh mục,
+                        thêm sản phẩm vào giỏ hàng và kiểm tra đơn hàng ngay
+                        trên cùng một phiên làm việc.
+                    </p>
+                    <p>
+                        Tôi tối ưu giao diện để phù hợp cả desktop lẫn mobile,
+                        đồng thời ưu tiên tốc độ tải ảnh sản phẩm. Việc phân
+                        tách component theo khu vực giúp đội nhóm dễ chỉnh sửa
+                        khi có chiến dịch khuyến mãi mới.
+                    </p>
+                    <p>
+                        Hệ thống thanh toán demo được tách thành luồng riêng để
+                        tiện kiểm thử A/B. Nhờ vậy, quá trình cải thiện tỷ lệ
+                        chuyển đổi diễn ra nhanh và rõ ràng hơn.
+                    </p>
+
+                    <p>
+                        Công nghệ sử dụng:
+                        <code>HTML</code>, <code>CSS</code>,
+                        <code>JavaScript</code>, <code>React</code>,
+                        <code>Firebase</code>
+                    </p>
+
+                    <h4>Tính năng chính</h4>
+                    <ul>
+                        <li>Tìm kiếm và lọc sản phẩm theo giá, danh mục.</li>
+                        <li>
+                            Giỏ hàng và cập nhật số lượng theo thời gian thực.
+                        </li>
+                        <li>
+                            <mark>One-page checkout</mark> để giảm bước thanh
+                            toán.
+                        </li>
+                        <li>Quản lý trạng thái đơn hàng cho người dùng.</li>
+                    </ul>
+
+                    <p>
+                        <a
+                            href="https://example.com/shopnext-demo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Xem demo</a
+                        >
+                        |
+                        <a
+                            href="https://github.com/example/shopnext"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Source code (GitHub)</a
+                        >
+                    </p>
+
+                    <h4>Video demo</h4>
+                    <video controls poster="../videos/poster.png" width="640">
+                        <source src="../videos/intro.mp4" type="video/mp4" />
+                        Trình duyệt của bạn không hỗ trợ video.
+                    </video>
+                </article>
+            </section>
+
+            <section>
+                <h2>Nhóm dự án Mobile</h2>
+
+                <article>
+                    <img
+                        src="../images/project3.png"
+                        alt="Thumbnail dự án mobile theo dõi sức khỏe"
+                        width="640"
+                        height="360"
+                    />
+                    <h3>
+                        <strong
+                            >FitTrack Mobile - Ứng dụng theo dõi sức khỏe cá
+                            nhân</strong
+                        >
+                    </h3>
+                    <p>
+                        FitTrack Mobile hỗ trợ ghi nhận hoạt động hàng ngày như
+                        số bước chân, lượng nước uống và thời gian ngủ. Dự án
+                        hướng đến người dùng muốn duy trì thói quen sống lành
+                        mạnh.
+                    </p>
+                    <p>
+                        Tôi xây dựng trải nghiệm nhập liệu nhanh để người dùng
+                        chỉ cần vài chạm là hoàn tất nhật ký. Dữ liệu được đồng
+                        bộ định kỳ để giảm tiêu tốn pin nhưng vẫn đảm bảo thông
+                        tin gần thời gian thực.
+                    </p>
+                    <p>
+                        Bảng phân tích theo tuần giúp người dùng nhận ra thói
+                        quen chưa tốt và điều chỉnh mục tiêu. Từ đó tăng khả
+                        năng duy trì kế hoạch sức khỏe trong dài hạn.
+                    </p>
+
+                    <p>
+                        Công nghệ sử dụng:
+                        <code>Dart</code>, <code>Flutter</code>,
+                        <code>SQLite</code>, <code>REST API</code>
+                    </p>
+
+                    <h4>Tính năng chính</h4>
+                    <ul>
+                        <li>
+                            Nhập dữ liệu sức khỏe hằng ngày bằng thao tác nhanh.
+                        </li>
+                        <li>Biểu đồ tiến độ theo ngày, tuần và tháng.</li>
+                        <li>
+                            <mark>Reminder thông minh</mark> theo lịch sinh hoạt
+                            cá nhân.
+                        </li>
+                        <li>Đồng bộ dữ liệu khi có kết nối mạng.</li>
+                    </ul>
+
+                    <p>
+                        <a
+                            href="https://example.com/fittrack-demo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Xem demo</a
+                        >
+                        |
+                        <a
+                            href="https://github.com/example/fittrack-mobile"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Source code (GitHub)</a
+                        >
+                    </p>
+
+                    <h4>Video demo</h4>
+                    <video controls poster="../videos/poster.png" width="640">
+                        <source src="../videos/intro.mp4" type="video/mp4" />
+                        Trình duyệt của bạn không hỗ trợ video.
+                    </video>
+                </article>
+            </section>
+
+            <section>
+                <h2>Nhóm dự án Desktop</h2>
+
+                <article>
+                    <img
+                        src="https://placehold.co/640x360?text=Desktop+Project"
+                        alt="Thumbnail placeholder cho dự án desktop"
+                        width="640"
+                        height="360"
+                    />
+                    <h3>
+                        <strong
+                            >DeskInvoice - Ứng dụng quản lý hóa đơn cho cửa
+                            hàng</strong
+                        >
+                    </h3>
+                    <p>
+                        DeskInvoice là phần mềm desktop phục vụ các cửa hàng vừa
+                        và nhỏ trong việc tạo hóa đơn, quản lý khách hàng và
+                        theo dõi doanh thu hằng ngày.
+                    </p>
+                    <p>
+                        Dự án tập trung vào sự ổn định và thao tác bàn phím
+                        nhanh để phù hợp nhân viên thu ngân. Tôi bổ sung các
+                        phím tắt để giảm thời gian nhập liệu ở những ca có lượng
+                        khách lớn.
+                    </p>
+                    <p>
+                        Dữ liệu được lưu cục bộ để vẫn hoạt động tốt khi mất
+                        mạng, sau đó đồng bộ lên cloud khi kết nối trở lại để
+                        tránh thất thoát thông tin bán hàng.
+                    </p>
+
+                    <p>
+                        Công nghệ sử dụng:
+                        <code>C#</code>, <code>.NET</code>, <code>WPF</code>,
+                        <code>SQLite</code>
+                    </p>
+
+                    <h4>Tính năng chính</h4>
+                    <ul>
+                        <li>Tạo hóa đơn và in hóa đơn trực tiếp tại quầy.</li>
+                        <li>Quản lý kho hàng theo lô và hạn sử dụng.</li>
+                        <li>
+                            <mark>Hoạt động offline-first</mark> để không gián
+                            đoạn bán hàng.
+                        </li>
+                        <li>Báo cáo doanh thu theo ca, ngày và tháng.</li>
+                    </ul>
+
+                    <p>
+                        <a
+                            href="https://example.com/deskinvoice-demo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Xem demo</a
+                        >
+                        |
+                        <a
+                            href="https://github.com/example/deskinvoice"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Source code (GitHub)</a
+                        >
+                    </p>
+
+                    <h4>Video demo</h4>
+                    <video controls poster="../videos/poster.png" width="640">
+                        <source src="../videos/intro.mp4" type="video/mp4" />
+                        Trình duyệt của bạn không hỗ trợ video.
+                    </video>
+                </article>
+            </section>
+
             <!-- Footer:  -->
             <footer>
                 <div class="footer-content">
