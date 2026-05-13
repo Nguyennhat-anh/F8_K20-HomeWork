@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog | Tư duy lập trình hiện đại</title>
+        <link rel="stylesheet" href="../css/style.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+        />
+    </head>
+    <body id="top">
+        <header>
+            <nav>
+                <div class="logo">
+                    <h2><i class="mdi mdi-seal"></i>Nguyễn Nhật Anh</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li>
+                        <a href="../index.html"
+                            ><i class="mdi mdi-home"></i>Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./about.html"
+                            ><i class="mdi mdi-account"></i>About</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./skills.html">
+                            <i class="mdi mdi-lightbulb"></i>Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./project.html"
+                            ><i class="mdi mdi-folder"></i>Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./blog.html"
+                            ><i class="mdi mdi-file-document"></i>Blog</a
+                        >
+                    </li>
+                    <li>
+                        <a href="./contact.html"
+                            ><i class="mdi mdi-email"></i>Contact</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article class="blog-article">
+                <header class="page-header">
+                    <div class="page-header-content">
+                        <h1>
+                            Tư duy lập trình hiện đại: viết code ít hơn, tạo giá
+                            trị nhiều hơn
+                        </h1>
+                        <ul class="meta">
+                            <li>
+                                <strong>Ngày đăng:</strong>
+                                <time datetime="2026-05-13">13/05/2026</time>
+                            </li>
+                            <li><strong>Tác giả:</strong> Nguyễn Nhật Anh</li>
+                            <li>
+                                <strong>Chủ đề:</strong> Công nghệ / Lập trình
+                            </li>
+                        </ul>
+                    </div>
+                </header>
+
+                <section class="article-cover">
+                    <img
+                        src="../images/hero-bg.png"
+                        alt="Ảnh cover minh họa cho chủ đề công nghệ và lập trình"
+                    />
+                </section>
+
+                <section class="article-body"">
+                    <h2>1. Khi lập trình không chỉ là gõ code</h2>
+                    <p>
+                        Lập trình ngày nay không còn chỉ là việc viết ra thật
+                        nhiều dòng <code>code</code>. Điều quan trọng hơn là
+                        hiểu bài toán, thiết kế giải pháp và lựa chọn công cụ
+                        phù hợp. Một lập trình viên giỏi thường bắt đầu từ câu
+                        hỏi <em>"người dùng cần gì?"</em> thay vì chỉ chăm chăm
+                        vào cú pháp.
+                    </p>
+                    <p>
+                        Trong quá trình học và làm việc, tôi nhận ra rằng
+                        <strong>tư duy hệ thống</strong> giúp tiết kiệm rất
+                        nhiều thời gian. Khi cấu trúc dữ liệu, luồng xử lý và
+                        cách tách module được tính toán tốt, phần còn lại sẽ nhẹ
+                        nhàng hơn rất nhiều. Đó cũng là lúc
+                        <mark>độ rõ ràng</mark>
+                        của mã nguồn trở thành lợi thế lớn nhất.
+                    </p>
+                    <p>
+                        Một thói quen nhỏ nhưng hữu ích là lưu thường xuyên bằng
+                        <kbd>Ctrl</kbd> + <kbd>S</kbd>. Nghe đơn giản, nhưng nó
+                        giúp tránh mất mát công việc khi đang thử nghiệm một ý
+                        tưởng mới. Từ những chi tiết nhỏ như vậy, môi trường làm
+                        việc của bạn sẽ ổn định và ít gián đoạn hơn.
+                    </p>
+
+                    <h2>2. Viết hàm nhỏ để nghĩ lớn hơn</h2>
+                    <p>
+                        Khi một tính năng trở nên phức tạp, hãy tách nó thành
+                        các hàm nhỏ có trách nhiệm rõ ràng. Ví dụ, thay vì để
+                        một hàm <code>renderDashboard()</code> làm tất cả mọi
+                        thứ, bạn có thể chia thành các phần như
+                        <code>loadData()</code>, <code>formatStats()</code> và
+                        <code>mountWidgets()</code>. Cách tiếp cận này giúp việc
+                        kiểm thử, bảo trì và mở rộng trở nên dễ hơn nhiều.
+                    </p>
+                    <p>
+                        Điều tôi thích ở phong cách này là mỗi bước đều có thể
+                        kiểm tra riêng biệt. Nếu một phần lỗi, bạn sẽ biết chính
+                        xác nơi cần sửa. Khi debug, bạn cũng dễ quan sát trạng
+                        thái chương trình và đọc kết quả nhanh hơn, thay vì phải
+                        lần mò trong một khối logic quá lớn.
+                    </p>
+                    <p>
+                        Ví dụ, output của một bước xử lý có thể được mô tả bằng
+                        <samp>Build completed successfully</samp>. Một dòng
+                        thông báo rõ ràng như vậy thường đáng giá hơn rất nhiều
+                        so với hàng trăm dòng log rối mắt.
+                    </p>
+
+                    <h2>3. Code block mẫu cho trang web nhỏ</h2>
+                    <p>
+                        Dưới đây là một ví dụ HTML ngắn minh họa cách tạo cấu
+                        trúc bài viết gọn gàng. Phần comment trong code giúp
+                        người đọc hiểu mục đích của từng khu vực nhanh hơn.
+                    </p>
+                    <pre><code>&lt;!-- Bố cục cơ bản của một bài blog --&gt;
+&lt;article class="post"&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Tư duy lập trình hiện đại&lt;/h1&gt;
+        &lt;time datetime="2026-05-13"&gt;13/05/2026&lt;/time&gt;
+    &lt;/header&gt;
+
+    &lt;section&gt;
+        &lt;p&gt;Nội dung được chia thành từng đoạn ngắn để dễ đọc.&lt;/p&gt;
+        &lt;p&gt;Mỗi thẻ &lt;code&gt;section&lt;/code&gt; nên mang một ý nghĩa rõ ràng.&lt;/p&gt;
+    &lt;/section&gt;
+&lt;/article&gt;</code></pre>
+                    <p>
+                        Với CSS, chỉ cần vài quy tắc nền tảng là trang đã trông
+                        dễ nhìn hơn rất nhiều. Ví dụ, dùng
+                        <code>display: grid</code> cho bố cục và thêm
+                        <code>gap</code> cho khoảng cách giữa các khối sẽ giúp
+                        giao diện thoáng hơn mà không cần nhiều thủ thuật phức
+                        tạp.
+                    </p>
+
+                    <h2>4. Trích dẫn từ cộng đồng phát triển</h2>
+                    <blockquote>
+                        <p>"The only way to go fast, is to go well."</p>
+                        <cite
+                            >Robert C. Martin, trong các bài nói về clean code
+                            và chất lượng phần mềm</cite
+                        >
+                    </blockquote>
+                    <p>
+                        Câu trích dẫn này nhắc rằng tốc độ bền vững đến từ chất
+                        lượng nền tảng. Nếu làm đúng ngay từ đầu, bạn sẽ ít phải
+                        sửa chữa vòng vo ở các giai đoạn sau. Trong thực tế,
+                        việc đầu tư vào cấu trúc code tốt thường rẻ hơn rất
+                        nhiều so với việc gỡ rối sau này.
+                    </p>
+
+                    <h2>5. Cách học hiệu quả hơn mỗi ngày</h2>
+                    <p>
+                        Tôi thường chia việc học lập trình thành ba lớp: hiểu
+                        khái niệm, thực hành ngay, và tự giải thích lại bằng
+                        ngôn ngữ của chính mình. Khi bạn có thể mô tả một ý
+                        tưởng thật đơn giản, nghĩa là bạn đã hiểu nó đủ sâu.
+                        Ngược lại, nếu vẫn còn mơ hồ, hãy quay lại ví dụ nhỏ hơn
+                        và thử lại.
+                    </p>
+                    <p>
+                        Một mẹo nhỏ khác là ghi chú lại những lỗi phổ biến và
+                        cách khắc phục của riêng bạn. Sau vài tuần, bạn sẽ có
+                        một kho kinh nghiệm rất thực tế. Đó là lúc việc học
+                        chuyển từ bị động sang chủ động, và mỗi lần debug không
+                        còn là một cuộc đấu trí mệt mỏi nữa.
+                    </p>
+                    <p>
+                        Khi nhìn lại, lập trình giỏi không phải là biết tất cả
+                        ngôn ngữ hay framework. Nó là khả năng chọn đúng công
+                        cụ, viết code dễ hiểu và giữ cho hệ thống luôn có thể
+                        phát triển tiếp. Nếu làm được điều đó, bạn đã đi rất xa
+                        rồi.
+                    </p>
+                </section>
+
+                <section class="examples" aria-label="Phần code examples">
+                    <h2>Code Examples</h2>
+                    <div class="example-grid">
+                        <div>
+                            <h3>Ví dụ HTML</h3>
+                            <pre><code>&lt;!-- Thẻ tiêu đề cho một bài viết --&gt;
+&lt;header class="post-header"&gt;
+    &lt;h1&gt;Tư duy lập trình hiện đại&lt;/h1&gt;
+    &lt;p&gt;Viết code rõ ràng, dễ đọc và dễ bảo trì.&lt;/p&gt;
+&lt;/header&gt;</code></pre>
+                        </div>
+                        <div>
+                            <h3>Ví dụ JavaScript</h3>
+                            <pre><code>// Tính điểm trung bình từ mảng số
+function average(scores) {
+    const total = scores.reduce((sum, score) =&gt; sum + score, 0);
+    return scores.length ? total / scores.length : 0;
+}
+
+console.log(average([8, 9, 10])); // 9</code></pre>
+                        </div>
+                        <div>
+                            <h3>Ví dụ CSS</h3>
+                            <pre><code>/* Tạo một khung nội dung nổi bật */
+.card {
+    padding: 24px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+}</code></pre>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="references" aria-label="Phần tham khảo">
+                    <h2>Tham khảo</h2>
+                    <ul class="reference-list">
+                        <li>
+                            <cite>MDN Web Docs</cite> -
+                            <a
+                                href="https://developer.mozilla.org/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                https://developer.mozilla.org/
+                            </a>
+                        </li>
+                        <li>
+                            <cite>What is Code Readability?</cite> -
+                            <a
+                                href="https://martinfowler.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                https://martinfowler.com/
+                            </a>
+                        </li>
+                        <li>
+                            <cite>HTML Living Standard</cite> -
+                            <a
+                                href="https://html.spec.whatwg.org/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                https://html.spec.whatwg.org/
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="author-card">
+                    <div class="author-card-inner">
+                        <img
+                            src="../images/avatar.png"
+                            alt="Ảnh avatar của tác giả Nguyễn Nhật Anh"
+                        />
+                        <div>
+                            <h2>Thông tin tác giả</h2>
+                            <h3>Nguyễn Nhật Anh</h3>
+                            <p>
+                                Yêu thích công nghệ, giao diện web và những cách
+                                viết code đơn giản nhưng hiệu quả. Tôi tin rằng
+                                một sản phẩm tốt luôn bắt đầu từ những chi tiết
+                                nhỏ được làm cẩn thận.
+                            </p>
+                            <address>
+                                Liên hệ:
+                                <a href="mailto:nguyennhatanh@example.com"
+                                    >nguyennhatanh@example.com</a
+                                ><br />
+                                Địa chỉ: Hà Nội, Việt Nam
+                            </address>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <footer>
+                <div class="footer-content">
+                    <p>&copy; 2026.</p>
+                    <div class="social-links">
+                        <!-- TODO -->
+                        <a href="#" target="_blank" title="Facebook">
+                            <i class="mdi mdi-facebook"></i>
+                        </a>
+                        <a href="#" target="_blank" title="Instagram">
+                            <i class="mdi mdi-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" title="Twitter">
+                            <i class="mdi mdi-twitter"></i>
+                        </a>
+                        <a href="#" target="_blank" title="GitHub">
+                            <i class="mdi mdi-github"></i>
+                        </a>
+                        <a href="#" target="_blank" title="LinkedIn">
+                            <i class="mdi mdi-linkedin"></i>
+                        </a>
+                    </div>
+                    <a href="#top" class="back-to-top"> Lên đầu trang </a>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
